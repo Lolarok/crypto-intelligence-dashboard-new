@@ -1,0 +1,38 @@
+name: Update Dashboard
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 07:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd scanner
+          python3 -m venv venv
+          venv/bin/pip install -r requirements.txt
+
+      - name: Run scanner
+        run: |
+          cd scanner
+          venv/bin/python src/main.py --dashboard --curated --signalhub ../dashboard/curated.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "Dashboard Bot"
+          git config user.email "bot@cryptointelligence.dev"
+          git add -A
+          git diff --staged --quiet || git commit -m "auto: update dashboard $(date -u +%Y-%m-%d)"
+          git push
