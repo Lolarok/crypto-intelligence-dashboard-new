@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /root/.openclaw/workspace/moltstreet-intelligence/venv
+set -gx VIRTUAL_ENV /home/runner/work/crypto-intelligence-dashboard-new/crypto-intelligence-dashboard-new/scanner/venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

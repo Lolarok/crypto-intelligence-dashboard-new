@@ -1,4 +1,4 @@
-#!/root/.openclaw/workspace/moltstreet-intelligence/venv/bin/python3
+#!/home/runner/work/crypto-intelligence-dashboard-new/crypto-intelligence-dashboard-new/scanner/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
