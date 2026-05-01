@@ -105,7 +105,8 @@
 
         .projects-grid {
             display: grid;
-            grid-gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
             margin-top: 20px;
         }
 
@@ -261,18 +262,25 @@
             }
         }
 
-        // Format date
+        // Format date with error handling
         function formatDate(dateString) {
-            const date = new Date(dateString);
-            return date.toLocaleString('en-US', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric',
-                hour: '2-digit',
-                minute: '2-digit',
-                second: '2-digit',
-                timeZoneName: 'short'
-            });
+            try {
+                const date = new Date(dateString);
+                if (isNaN(date.getTime())) {
+                    return 'Recently';
+                }
+                return date.toLocaleString('en-US', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    timeZoneName: 'short'
+                });
+            } catch (e) {
+                return 'Recently';
+            }
         }
 
         // Get sector color
@@ -305,21 +313,46 @@
             const card = document.createElement('article');
             card.className = 'project-card';
 
-            const signalsHtml = project.signals && project.signals.length > 0
-                ? `<div class="project-signals">${project.signals.map(signal => `<span class="signal">${signal}</span>`).join('')}</div>`
-                : '';
+            // Create signals HTML safely
+            let signalsHtml = '';
+            if (project.signals && project.signals.length > 0) {
+                const signalsDiv = document.createElement('div');
+                signalsDiv.className = 'project-signals';
+                project.signals.forEach(signal => {
+                    const span = document.createElement('span');
+                    span.className = 'signal';
+                    span.textContent = signal;
+                    signalsDiv.appendChild(span);
+                });
+                signalsHtml = signalsDiv.outerHTML;
+            } else {
+                // Show "No signals" placeholder
+                signalsHtml = '<div class="project-signals"><span class="signal">No signals</span></div>';
+            }
 
+            // Use textContent-based approach to prevent XSS
             card.innerHTML = `
                 <div class="project-header">
                     <div>
-                        <span class="project-symbol">${project.symbol}</span>
-                        <span class="project-sector">${project.sector}</span>
+                        <span class="project-symbol"></span>
+                        <span class="project-sector"></span>
                     </div>
-                    <div class="project-score ${getScoreClass(project.score)}">${project.score.toFixed(1)}</div>
+                    <div class="project-score"></div>
                 </div>
-                <div class="project-thesis">${project.thesis}</div>
-                ${signalsHtml}
+                <div class="project-thesis"></div>
             `;
+            
+            // Safely set text content to prevent XSS
+            card.querySelector('.project-symbol').textContent = project.symbol;
+            card.querySelector('.project-sector').textContent = project.sector;
+            card.querySelector('.project-thesis').textContent = project.thesis;
+            card.querySelector('.project-score').textContent = (project.score ?? 0).toFixed(1);
+            card.querySelector('.project-score').className = `project-score ${getScoreClass(project.score ?? 0)}`;
+
+            // Add signals if present
+            if (signalsHtml) {
+                card.insertAdjacentHTML('beforeend', signalsHtml);
+            }
 
             return card;
         }
@@ -375,7 +408,7 @@
                 symbol: item.symbol,
                 sector: item.sector,
                 thesis: item.thesis,
-                score: 0, // Inizializziamo a 0, poi verrà popolato dal data.json del dashboard
+                score: 0, // Initialize to 0, will be populated from data.json
                 signals: []
             }));
 
