@@ -1,58 +1,20 @@
 {
-  "generated_at": "2026-06-16T12:15:44.634432+00:00",
+  "generated_at": "2026-06-17T11:55:13.121073+00:00",
   "fear_greed": {
-    "index": 23,
-    "trend": 14,
+    "index": 22,
+    "trend": 10,
     "label": "Extreme Fear"
   },
   "projects": [
     {
-      "symbol": "EIGEN",
-      "score": 57.1,
-      "rating": "WATCH",
-      "price": 0.218598,
-      "mcap_m": 162.062287,
-      "p7d": 19.578515364335853,
-      "ath_chg": -96.12265,
-      "volume": 37202283,
-      "tvl": 5000314413.892525,
-      "breakdown": {
-        "momentum_24h": 50,
-        "momentum_7d": 70,
-        "momentum_30d": 50,
-        "ath_discount": 95,
-        "volume_mcap": 70,
-        "tvl_level": 75,
-        "tvl_change_7d": 50,
-        "fear_greed": 77,
-        "github_activity": 15,
-        "mcap_upside": 70,
-        "social": 30
-      },
-      "signals": [
-        "7d+20%",
-        "ATH-96%",
-        "Vol/MC:0.23",
-        "TVL$5.0B"
-      ],
-      "social": {
-        "threads": 0,
-        "upvotes": 0,
-        "comments": 0,
-        "sentiment": 50,
-        "score": 0,
-        "top_threads": []
-      }
-    },
-    {
       "symbol": "GRASS",
       "score": 53.4,
       "rating": "WATCH",
-      "price": 0.475519,
-      "mcap_m": 291.385398,
-      "p7d": 38.102719378187174,
-      "ath_chg": -87.74349,
-      "volume": 26793707,
+      "price": 0.486792,
+      "mcap_m": 297.04284,
+      "p7d": 40.88018222527081,
+      "ath_chg": -87.57861,
+      "volume": 28355312,
       "tvl": 0,
       "breakdown": {
         "momentum_24h": 60,
@@ -62,14 +24,14 @@
         "volume_mcap": 50,
         "tvl_level": 10,
         "tvl_change_7d": 30,
-        "fear_greed": 77,
+        "fear_greed": 78,
         "github_activity": 10,
         "mcap_upside": 55,
         "social": 30
       },
       "signals": [
-        "7d+38%",
-        "30d+57%",
+        "7d+41%",
+        "30d+65%",
         "ATH-88%"
       ],
       "social": {
@@ -83,31 +45,31 @@
     },
     {
       "symbol": "PENDLE",
-      "score": 50.9,
+      "score": 52.3,
       "rating": "WATCH",
-      "price": 1.41,
-      "mcap_m": 240.607572,
-      "p7d": 11.223333189453982,
-      "ath_chg": -81.1903,
-      "volume": 38532612,
-      "tvl": 1184439514.8187904,
+      "price": 1.48,
+      "mcap_m": 252.347358,
+      "p7d": 25.581733214058865,
+      "ath_chg": -80.33139,
+      "volume": 50335646,
+      "tvl": 1186026819.0069864,
       "breakdown": {
-        "momentum_24h": 50,
-        "momentum_7d": 70,
+        "momentum_24h": 60,
+        "momentum_7d": 85,
         "momentum_30d": 10,
         "ath_discount": 70,
         "volume_mcap": 70,
         "tvl_level": 75,
         "tvl_change_7d": 50,
-        "fear_greed": 77,
+        "fear_greed": 78,
         "github_activity": 15,
-        "mcap_upside": 70,
+        "mcap_upside": 55,
         "social": 30
       },
       "signals": [
-        "7d+11%",
-        "ATH-81%",
-        "Vol/MC:0.16",
+        "7d+26%",
+        "ATH-80%",
+        "Vol/MC:0.20",
         "TVL$1.2B"
       ],
       "social": {
@@ -120,175 +82,32 @@
       }
     },
     {
-      "symbol": "DRIFT",
-      "score": 48.8,
-      "rating": "CAUTION",
-      "price": 0.01709153,
-      "mcap_m": 10.422661,
-      "p7d": 7.68215157749248,
-      "ath_chg": -99.34696,
-      "volume": 4615522,
-      "tvl": 0,
+      "symbol": "EIGEN",
+      "score": 52.3,
+      "rating": "WATCH",
+      "price": 0.207432,
+      "mcap_m": 153.754468,
+      "p7d": 14.999771394137149,
+      "ath_chg": -96.3436,
+      "volume": 18533933,
+      "tvl": 4924367391.715707,
       "breakdown": {
-        "momentum_24h": 40,
-        "momentum_7d": 55,
-        "momentum_30d": 0,
-        "ath_discount": 95,
-        "volume_mcap": 85,
-        "tvl_level": 10,
-        "tvl_change_7d": 30,
-        "fear_greed": 77,
-        "github_activity": 15,
-        "mcap_upside": 95,
-        "social": 30
-      },
-      "signals": [
-        "ATH-99%",
-        "Vol/MC:0.44"
-      ],
-      "social": {
-        "threads": 0,
-        "upvotes": 0,
-        "comments": 0,
-        "sentiment": 50,
-        "score": 0,
-        "top_threads": []
-      }
-    },
-    {
-      "symbol": "RESOLV",
-      "score": 47.5,
-      "rating": "CAUTION",
-      "price": 0.01805382,
-      "mcap_m": 7.380659,
-      "p7d": 3.468082703426433,
-      "ath_chg": -95.57952,
-      "volume": 5518193,
-      "tvl": 14004897.004442077,
-      "breakdown": {
-        "momentum_24h": 40,
-        "momentum_7d": 45,
-        "momentum_30d": 0,
-        "ath_discount": 95,
-        "volume_mcap": 95,
-        "tvl_level": 25,
-        "tvl_change_7d": 15,
-        "fear_greed": 77,
-        "github_activity": 10,
-        "mcap_upside": 95,
-        "social": 30
-      },
-      "signals": [
-        "ATH-96%",
-        "Vol/MC:0.75"
-      ],
-      "social": {
-        "threads": 0,
-        "upvotes": 0,
-        "comments": 0,
-        "sentiment": 50,
-        "score": 0,
-        "top_threads": []
-      }
-    },
-    {
-      "symbol": "BERA",
-      "score": 47.3,
-      "rating": "CAUTION",
-      "price": 0.262774,
-      "mcap_m": 72.665249,
-      "p7d": 4.185688475728329,
-      "ath_chg": -98.22437,
-      "volume": 16400782,
-      "tvl": 0,
-      "breakdown": {
-        "momentum_24h": 40,
-        "momentum_7d": 45,
-        "momentum_30d": 10,
-        "ath_discount": 95,
-        "volume_mcap": 70,
-        "tvl_level": 10,
-        "tvl_change_7d": 30,
-        "fear_greed": 77,
-        "github_activity": 25,
-        "mcap_upside": 85,
-        "social": 30
-      },
-      "signals": [
-        "ATH-98%",
-        "Vol/MC:0.23"
-      ],
-      "social": {
-        "threads": 0,
-        "upvotes": 0,
-        "comments": 0,
-        "sentiment": 50,
-        "score": 0,
-        "top_threads": []
-      }
-    },
-    {
-      "symbol": "KAITO",
-      "score": 47.1,
-      "rating": "CAUTION",
-      "price": 0.488661,
-      "mcap_m": 117.800446,
-      "p7d": 18.38386244039364,
-      "ath_chg": -83.11016,
-      "volume": 12465865,
-      "tvl": 0,
-      "breakdown": {
-        "momentum_24h": 50,
+        "momentum_24h": 10,
         "momentum_7d": 70,
         "momentum_30d": 50,
-        "ath_discount": 70,
+        "ath_discount": 95,
         "volume_mcap": 50,
-        "tvl_level": 10,
-        "tvl_change_7d": 30,
-        "fear_greed": 77,
-        "github_activity": 10,
+        "tvl_level": 75,
+        "tvl_change_7d": 50,
+        "fear_greed": 78,
+        "github_activity": 15,
         "mcap_upside": 70,
         "social": 30
       },
       "signals": [
-        "7d+18%",
-        "ATH-83%"
-      ],
-      "social": {
-        "threads": 0,
-        "upvotes": 0,
-        "comments": 0,
-        "sentiment": 50,
-        "score": 0,
-        "top_threads": []
-      }
-    },
-    {
-      "symbol": "JUP",
-      "score": 45.5,
-      "rating": "CAUTION",
-      "price": 0.198988,
-      "mcap_m": 660.904287,
-      "p7d": 28.14774829042027,
-      "ath_chg": -90.00974,
-      "volume": 50720885,
-      "tvl": 0,
-      "breakdown": {
-        "momentum_24h": 60,
-        "momentum_7d": 85,
-        "momentum_30d": 25,
-        "ath_discount": 85,
-        "volume_mcap": 30,
-        "tvl_level": 10,
-        "tvl_change_7d": 30,
-        "fear_greed": 77,
-        "github_activity": 10,
-        "mcap_upside": 40,
-        "social": 30
-      },
-      "signals": [
-        "7d+28%",
-        "ATH-90%"
+        "7d+15%",
+        "ATH-96%",
+        "TVL$4.9B"
       ],
       "social": {
         "threads": 0,
@@ -301,30 +120,246 @@
     },
     {
       "symbol": "ENA",
-      "score": 44.9,
+      "score": 48.7,
       "rating": "CAUTION",
-      "price": 0.086886,
-      "mcap_m": 806.28152,
-      "p7d": 8.014296261446567,
-      "ath_chg": -94.26882,
-      "volume": 168519699,
-      "tvl": 915786622.3883547,
+      "price": 0.087891,
+      "mcap_m": 817.31707,
+      "p7d": 12.228505415824142,
+      "ath_chg": -94.19732,
+      "volume": 175781920,
+      "tvl": 916150568.7096611,
       "breakdown": {
-        "momentum_24h": 40,
-        "momentum_7d": 55,
-        "momentum_30d": 10,
+        "momentum_24h": 50,
+        "momentum_7d": 70,
+        "momentum_30d": 25,
         "ath_discount": 85,
         "volume_mcap": 70,
         "tvl_level": 60,
         "tvl_change_7d": 30,
-        "fear_greed": 77,
+        "fear_greed": 78,
         "github_activity": 10,
         "mcap_upside": 40,
         "social": 30
       },
       "signals": [
+        "7d+12%",
         "ATH-94%",
-        "Vol/MC:0.21"
+        "Vol/MC:0.22"
+      ],
+      "social": {
+        "threads": 0,
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 50,
+        "score": 0,
+        "top_threads": []
+      }
+    },
+    {
+      "symbol": "DRIFT",
+      "score": 47.2,
+      "rating": "CAUTION",
+      "price": 0.01627291,
+      "mcap_m": 9.94354,
+      "p7d": 2.776276271311956,
+      "ath_chg": -99.37662,
+      "volume": 6032143,
+      "tvl": 0,
+      "breakdown": {
+        "momentum_24h": 25,
+        "momentum_7d": 45,
+        "momentum_30d": 0,
+        "ath_discount": 95,
+        "volume_mcap": 95,
+        "tvl_level": 10,
+        "tvl_change_7d": 30,
+        "fear_greed": 78,
+        "github_activity": 15,
+        "mcap_upside": 95,
+        "social": 30
+      },
+      "signals": [
+        "ATH-99%",
+        "Vol/MC:0.61"
+      ],
+      "social": {
+        "threads": 0,
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 50,
+        "score": 0,
+        "top_threads": []
+      }
+    },
+    {
+      "symbol": "BERA",
+      "score": 46.1,
+      "rating": "CAUTION",
+      "price": 0.252992,
+      "mcap_m": 70.031451,
+      "p7d": 4.553457827227722,
+      "ath_chg": -98.29896,
+      "volume": 14247798,
+      "tvl": 0,
+      "breakdown": {
+        "momentum_24h": 25,
+        "momentum_7d": 45,
+        "momentum_30d": 10,
+        "ath_discount": 95,
+        "volume_mcap": 70,
+        "tvl_level": 10,
+        "tvl_change_7d": 30,
+        "fear_greed": 78,
+        "github_activity": 25,
+        "mcap_upside": 85,
+        "social": 30
+      },
+      "signals": [
+        "ATH-98%",
+        "Vol/MC:0.20"
+      ],
+      "social": {
+        "threads": 0,
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 50,
+        "score": 0,
+        "top_threads": []
+      }
+    },
+    {
+      "symbol": "KAITO",
+      "score": 45.6,
+      "rating": "CAUTION",
+      "price": 0.476998,
+      "mcap_m": 115.145356,
+      "p7d": 12.676609840095479,
+      "ath_chg": -83.4518,
+      "volume": 15249764,
+      "tvl": 0,
+      "breakdown": {
+        "momentum_24h": 40,
+        "momentum_7d": 70,
+        "momentum_30d": 40,
+        "ath_discount": 70,
+        "volume_mcap": 50,
+        "tvl_level": 10,
+        "tvl_change_7d": 30,
+        "fear_greed": 78,
+        "github_activity": 10,
+        "mcap_upside": 70,
+        "social": 30
+      },
+      "signals": [
+        "7d+13%",
+        "ATH-83%"
+      ],
+      "social": {
+        "threads": 0,
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 50,
+        "score": 0,
+        "top_threads": []
+      }
+    },
+    {
+      "symbol": "RESOLV",
+      "score": 45.6,
+      "rating": "CAUTION",
+      "price": 0.01723188,
+      "mcap_m": 7.041293,
+      "p7d": 2.446492605075149,
+      "ath_chg": -95.80067,
+      "volume": 4730131,
+      "tvl": 14063737.272850616,
+      "breakdown": {
+        "momentum_24h": 25,
+        "momentum_7d": 45,
+        "momentum_30d": 0,
+        "ath_discount": 95,
+        "volume_mcap": 95,
+        "tvl_level": 25,
+        "tvl_change_7d": 5,
+        "fear_greed": 78,
+        "github_activity": 10,
+        "mcap_upside": 95,
+        "social": 30
+      },
+      "signals": [
+        "ATH-96%",
+        "Vol/MC:0.67"
+      ],
+      "social": {
+        "threads": 0,
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 50,
+        "score": 0,
+        "top_threads": []
+      }
+    },
+    {
+      "symbol": "JUP",
+      "score": 42.8,
+      "rating": "CAUTION",
+      "price": 0.194022,
+      "mcap_m": 644.618146,
+      "p7d": 29.903976549712073,
+      "ath_chg": -90.32405,
+      "volume": 33447383,
+      "tvl": 0,
+      "breakdown": {
+        "momentum_24h": 25,
+        "momentum_7d": 85,
+        "momentum_30d": 25,
+        "ath_discount": 85,
+        "volume_mcap": 30,
+        "tvl_level": 10,
+        "tvl_change_7d": 30,
+        "fear_greed": 78,
+        "github_activity": 10,
+        "mcap_upside": 40,
+        "social": 30
+      },
+      "signals": [
+        "7d+30%",
+        "ATH-90%"
+      ],
+      "social": {
+        "threads": 0,
+        "upvotes": 0,
+        "comments": 0,
+        "sentiment": 50,
+        "score": 0,
+        "top_threads": []
+      }
+    },
+    {
+      "symbol": "TAO",
+      "score": 42.6,
+      "rating": "CAUTION",
+      "price": 253.01,
+      "mcap_m": 2428.537173,
+      "p7d": 23.277546899259345,
+      "ath_chg": -66.64862,
+      "volume": 284809041,
+      "tvl": 0,
+      "breakdown": {
+        "momentum_24h": 25,
+        "momentum_7d": 85,
+        "momentum_30d": 25,
+        "ath_discount": 50,
+        "volume_mcap": 50,
+        "tvl_level": 10,
+        "tvl_change_7d": 30,
+        "fear_greed": 78,
+        "github_activity": 50,
+        "mcap_upside": 25,
+        "social": 30
+      },
+      "signals": [
+        "7d+23%"
       ],
       "social": {
         "threads": 0,
@@ -337,23 +372,23 @@
     },
     {
       "symbol": "S",
-      "score": 44.4,
+      "score": 41.6,
       "rating": "CAUTION",
-      "price": 0.0331232,
-      "mcap_m": 125.227038,
-      "p7d": 9.488506573931312,
-      "ath_chg": -96.78805,
-      "volume": 12083111,
+      "price": 0.03225993,
+      "mcap_m": 122.092071,
+      "p7d": 5.017841828349708,
+      "ath_chg": -96.87342,
+      "volume": 8877529,
       "tvl": 0,
       "breakdown": {
-        "momentum_24h": 40,
+        "momentum_24h": 25,
         "momentum_7d": 55,
         "momentum_30d": 10,
         "ath_discount": 95,
-        "volume_mcap": 50,
+        "volume_mcap": 30,
         "tvl_level": 10,
         "tvl_change_7d": 30,
-        "fear_greed": 77,
+        "fear_greed": 78,
         "github_activity": 10,
         "mcap_upside": 70,
         "social": 30
@@ -371,61 +406,24 @@
       }
     },
     {
-      "symbol": "HYPE",
-      "score": 43.6,
-      "rating": "CAUTION",
-      "price": 75.15,
-      "mcap_m": 16682.708596,
-      "p7d": 21.56241518473021,
-      "ath_chg": -1.06441,
-      "volume": 2418558676,
-      "tvl": 0,
-      "breakdown": {
-        "momentum_24h": 90,
-        "momentum_7d": 85,
-        "momentum_30d": 95,
-        "ath_discount": 5,
-        "volume_mcap": 50,
-        "tvl_level": 10,
-        "tvl_change_7d": 30,
-        "fear_greed": 77,
-        "github_activity": 15,
-        "mcap_upside": 10,
-        "social": 30
-      },
-      "signals": [
-        "24h+10%",
-        "7d+22%",
-        "30d+73%"
-      ],
-      "social": {
-        "threads": 0,
-        "upvotes": 0,
-        "comments": 0,
-        "sentiment": 50,
-        "score": 0,
-        "top_threads": []
-      }
-    },
-    {
       "symbol": "STRK",
-      "score": 42.4,
+      "score": 39.6,
       "rating": "CAUTION",
-      "price": 0.03669991,
-      "mcap_m": 239.181676,
-      "p7d": 6.353162484996426,
-      "ath_chg": -99.16706,
-      "volume": 19278340,
-      "tvl": 2740.385525916696,
+      "price": 0.03545784,
+      "mcap_m": 231.115788,
+      "p7d": 3.423110694227923,
+      "ath_chg": -99.19871,
+      "volume": 16710048,
+      "tvl": 2735.303906561444,
       "breakdown": {
         "momentum_24h": 25,
-        "momentum_7d": 55,
+        "momentum_7d": 45,
         "momentum_30d": 25,
         "ath_discount": 95,
-        "volume_mcap": 50,
+        "volume_mcap": 30,
         "tvl_level": 10,
         "tvl_change_7d": 5,
-        "fear_greed": 77,
+        "fear_greed": 78,
         "github_activity": 10,
         "mcap_upside": 70,
         "social": 30
@@ -444,29 +442,29 @@
     },
     {
       "symbol": "ONDO",
-      "score": 41.8,
+      "score": 38.2,
       "rating": "CAUTION",
-      "price": 0.384613,
-      "mcap_m": 1868.052066,
-      "p7d": 6.47312965749217,
-      "ath_chg": -82.02872,
-      "volume": 180882235,
+      "price": 0.370006,
+      "mcap_m": 1802.143167,
+      "p7d": 7.397698480644303,
+      "ath_chg": -82.71125,
+      "volume": 128914495,
       "tvl": 0,
       "breakdown": {
-        "momentum_24h": 50,
+        "momentum_24h": 25,
         "momentum_7d": 55,
         "momentum_30d": 50,
         "ath_discount": 70,
-        "volume_mcap": 50,
+        "volume_mcap": 30,
         "tvl_level": 10,
         "tvl_change_7d": 30,
-        "fear_greed": 77,
+        "fear_greed": 78,
         "github_activity": 10,
         "mcap_upside": 25,
         "social": 30
       },
       "signals": [
-        "ATH-82%"
+        "ATH-83%"
       ],
       "social": {
         "threads": 0,
@@ -478,30 +476,31 @@
       }
     },
     {
-      "symbol": "TAO",
-      "score": 41.4,
+      "symbol": "HYPE",
+      "score": 35.6,
       "rating": "CAUTION",
-      "price": 263.95,
-      "mcap_m": 2532.364512,
-      "p7d": 22.56520835047258,
-      "ath_chg": -65.1715,
-      "volume": 269475780,
+      "price": 71.02,
+      "mcap_m": 15798.045447,
+      "p7d": 27.3034917936738,
+      "ath_chg": -7.40981,
+      "volume": 1254361507,
       "tvl": 0,
       "breakdown": {
         "momentum_24h": 10,
         "momentum_7d": 85,
-        "momentum_30d": 25,
-        "ath_discount": 50,
-        "volume_mcap": 50,
+        "momentum_30d": 95,
+        "ath_discount": 5,
+        "volume_mcap": 30,
         "tvl_level": 10,
         "tvl_change_7d": 30,
-        "fear_greed": 77,
-        "github_activity": 50,
-        "mcap_upside": 25,
+        "fear_greed": 78,
+        "github_activity": 15,
+        "mcap_upside": 10,
         "social": 30
       },
       "signals": [
-        "7d+23%"
+        "7d+27%",
+        "30d+58%"
       ],
       "social": {
         "threads": 0,
